@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
 @media (min-width: 920px) and (max-width: 1920px) {
     .ac-container {
         width: 800px;
