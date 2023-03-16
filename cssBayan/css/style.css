@@ -101,3 +101,211 @@
         height: 300px;
     }
 }
+
+@media (min-width: 600px) and (max-width: 820px) {
+    .ac-container {
+        width: 600px;
+        margin: 30px auto 30px auto;
+    }
+
+    .ac-container h1 {
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin: 40px auto 40px auto;
+        padding: 5px 20px;
+        text-align: center;
+    }
+
+    .ac-container div {
+        border-top: 1px solid #a3a3a3;
+        margin: 2px auto 2px auto;
+    }
+
+    .ac-container label {
+        font-family: 'Comfortaa', cursive;
+        padding: 20px 15px;
+        position: relative;
+        z-index: 2;
+        display: block;
+        height: 20px;
+        cursor: pointer;
+        color: #777;
+        font-size: 27px;
+    }
+
+    .ac-container label:hover,
+    .ac-container input:checked+label,
+    .ac-container input:hover+label:hover:after {
+        font-weight: 800;
+        color: #2d1e7e;
+    }
+
+    .ac-container label:after {
+        content: '\f004';
+        font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+        font-weight: 200;
+
+        padding: 13px 6px;
+    }
+
+    .ac-container input:hover+label:hover::after,
+    .ac-container input:checked+label:after {
+        content: '\f004';
+        font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+        font-weight: 600;
+
+        padding: 13px 6px;
+    }
+
+    .ac-container label:after,
+    .ac-container input:checked+label:after {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 13px;
+        top: 7px;
+
+    }
+
+    .ac-container input {
+        display: none;
+    }
+
+    .ac-container input:checked {
+        height: 300px;
+    }
+
+    .ac-container article {
+        display: block;
+        margin-top: -1px;
+        overflow: hidden;
+        height: 0px;
+        position: relative;
+        z-index: 1;
+        transition: height 0.8s ease-in-out;
+    }
+
+    .ac-container article img {
+        display: block;
+        height: 230px;
+        z-index: 3;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+
+
+    }
+
+    .ac-container label:hover~article,
+    .ac-container input:checked~article {
+
+        transition: height 0.8s ease-in-out;
+        height: 250px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 450px) {
+    .ac-container {
+        width: 300px;
+        margin: 30px auto 30px auto;
+    }
+
+    .ac-container h1 {
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin: 40px auto 40px auto;
+        padding: 5px 20px;
+        text-align: center;
+    }
+
+    .ac-container div {
+        border-top: 1px solid #a3a3a3;
+        margin: 2px auto 2px auto;
+    }
+
+    .ac-container label {
+        font-family: 'Comfortaa', cursive;
+        padding: 20px 15px;
+        position: relative;
+        z-index: 2;
+        display: block;
+        height: 20px;
+        cursor: pointer;
+        color: #777;
+        font-size: 15px;
+    }
+
+    .ac-container label:hover,
+    .ac-container input:checked+label,
+    .ac-container input:hover+label:hover:after {
+        font-weight: 800;
+        color: #2d1e7e;
+    }
+
+    .ac-container label:after {
+        content: '\f004';
+        font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+        font-weight: 200;
+
+        padding: 13px 6px;
+    }
+
+    .ac-container input:hover+label:hover::after,
+    .ac-container input:checked+label:after {
+        content: '\f004';
+        font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+        font-weight: 600;
+
+        padding: 13px 6px;
+    }
+
+    .ac-container label:after,
+    .ac-container input:checked+label:after {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 13px;
+        top: 7px;
+
+    }
+
+    .ac-container input {
+        display: none;
+    }
+
+    .ac-container input:checked {
+        height: 120px;
+    }
+
+    .ac-container article {
+        display: block;
+        margin-top: -1px;
+        overflow: hidden;
+        height: 0px;
+        position: relative;
+        z-index: 1;
+        transition: height 0.8s ease-in-out;
+    }
+
+    .ac-container article img {
+        display: block;
+        height: 180px;
+        z-index: 3;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+
+
+    }
+
+    .ac-container label:hover~article,
+    .ac-container input:checked~article {
+
+        transition: height 0.8s ease-in-out;
+        height: 200px;
+    }
+}
